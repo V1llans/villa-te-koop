@@ -176,6 +176,16 @@ footer {
     font-size: 18px;
 }
 
+/* contact page */
+
+form input{
+    display: flex;
+}
+
+form #naam {
+    display: block;
+}
+
 /* keyframes */
 
 @keyframes slide-in {
