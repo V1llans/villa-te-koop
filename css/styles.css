@@ -185,11 +185,12 @@ form input, form textarea{
     border: none;
     margin: 4px;
     border-radius: 5px;
-    margin-left: 38%;
+    margin-left: 37%;
 }
 
 form h1 {
     font-weight: 500;
+    margin-top: 40px;
 }
 
 form h1, form p {
@@ -198,11 +199,25 @@ form h1, form p {
 
 form p {
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
 }
 
 form input::placeholder, form textarea::placeholder {
     color: rgb(47, 47, 47);
     font-family: "prompt";
+}
+
+form #submit-button {
+    margin-left: 61.25%;
+    border: 2px solid rgb(0, 136, 255);
+    background-color: white;
+    color: rgb(0, 136, 255);
+    padding: 10px 20px;
+}
+
+form #submit-button:hover {
+    background-color: rgb(227, 227, 227);
+    cursor: pointer;
 }
 
 /* keyframes */
