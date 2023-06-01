@@ -178,12 +178,31 @@ footer {
 
 /* contact page */
 
-form input{
+form input, form textarea{
     display: flex;
+    padding: 5px 10px;
+    background-color: rgb(198, 198, 198);
+    border: none;
+    margin: 4px;
+    border-radius: 5px;
+    margin-left: 38%;
 }
 
-form #naam {
-    display: block;
+form h1 {
+    font-weight: 500;
+}
+
+form h1, form p {
+    text-align: center;
+}
+
+form p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input::placeholder, form textarea::placeholder {
+    color: rgb(47, 47, 47);
+    font-family: "prompt";
 }
 
 /* keyframes */
