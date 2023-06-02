@@ -177,6 +177,9 @@ footer {
 }
 
 /* contact page */
+form {
+    animation: 1s slide-in, 0.3s fade-in;
+}
 
 form input, form textarea{
     display: flex;
@@ -190,7 +193,7 @@ form input, form textarea{
 
 form h1 {
     font-weight: 500;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 form h1, form p {
