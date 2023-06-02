@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -105,7 +106,7 @@ header img {
 
 #header-txt {
     position: absolute;
-    top: 55%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -126,6 +127,33 @@ header img {
     padding-top: 20px;
     width: 900px;
 }
+#header-txt button {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 20px 2px;
+    border-radius: 10px;
+    font-size: 23px;
+}
+#assortiment-btn {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(79, 173, 255);
+    color: rgb(79, 173, 255);
+}
+
+#assortiment-btn:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.199);
+}
+#contact-btn {
+    border: 2px solid rgb(79, 173, 255);
+    color: white;
+    background-color: rgb(79, 173, 255);
+}
+#contact-btn:hover {
+    background-color: rgb(66, 120, 167);
+    border: 2px solid rgb(76, 142, 200);
+}
+
 
 /* main */  
 
@@ -232,7 +260,7 @@ form #submit-button:hover {
         opacity: 20%;
     } to {
         margin-top: 0;
-        top: 55%;
+        top: 52%;
         opacity: 100%;
     }
 }
