@@ -12,12 +12,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <script src="../JS/villa.js" defer></script>
 </head>
 <body>
     <nav>
         <a id="logo" href="index.html">
-            <img src="../img/villaTeKoop-logo.png" alt="villa te koop logo">
+            <img    src="../img/villaTeKoop-logo.png" alt="villa te koop logo">
             <h3>Villa te koop</h3>
         </a>
         <a href="index.html">Home</a>
@@ -36,17 +36,22 @@
             <a href="contact.html"><button id="contact-btn">Contact</button></a>
         </div>
     </header>
-    <main>
-        <h3>Ons aanbod:</h3>
-        <div id="villa">
-            <a href="villa.html"><img src="../img/placeholder img.png" alt="villa 1"></a>
-            <a href="villa.html"><img src="../img/placeholder img.png" alt="villa 2"></a>
-            <a href="villa.html"><img src="../img/placeholder img.png" alt="villa 3"></a>
-            <img src="../img/placeholder img.png" alt="villa 4">
-            <img src="../img/placeholder img.png" alt="villa 5">
-            <img src="../img/placeholder img.png" alt="villa 6">
-        </div>
-    </main>
+    <div id="carouselDiv">
+        <input type="radio" name="position" checked />
+        <input type="radio" name="position" />
+        <input type="radio" name="position" />
+        <input type="radio" name="position" />
+        <input type="radio" name="position" />
+        <input type="radio" name="position" />
+        <main id="carousel">
+            <a class="item" onclick="callDatabase(1)"><img src="../img/villa 1 foto 1.webp" alt="villa 1" width="600px"></a>
+            <a class="item" onclick="callDatabase(2)"><img src="../img/villa 2 foto 1.png" alt="villa 2" width="600px"></a>
+            <a class="item" onclick="callDatabase(3)"><img src="../img/villa 3 foto 1.png" alt="villa 3" width="600px"></a>
+            <a class="item"></a>
+            <a class="item"></a>
+            <a class="item"></a>
+        <main>
+      </div>
     <footer>
         <div id="footer-nav">
             <a href="#">Mobile app</a>
@@ -58,6 +63,5 @@
             <a href="#">Resources</a>
         </div>
     </footer>
-    <script src="/path/to/flickity.pkgd.min.js"></script>
 </body>
 </html>

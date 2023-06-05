@@ -1,274 +1,376 @@
 * {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: "prompt";
+  font-family: "prompt";
 }
 
 /* nav */
 
 nav {
-    width: 100%;
-    position: absolute;
-    z-index: 12;
+  width: 100%;
+  position: absolute;
+  z-index: 12;
 }
 
-nav, #logo{
-    display: flex;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    background-color: white;
-    color: black;
+nav,
+#logo {
+  display: flex;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: white;
+  color: black;
 }
 
 nav img {
-    width: 45px;
-    margin: 0 10px 0 30px;
-    padding: 10px 0;
+  width: 45px;
+  margin: 0 10px 0 30px;
+  padding: 10px 0;
 }
 
-nav h3, nav a {
-    font-weight: 400;
-    margin-top: auto;
-    margin-bottom: auto;
+nav h3,
+nav a {
+  font-weight: 400;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 nav h3 {
-    font-size: 22px;
-    margin-right: 20px;
+  font-size: 22px;
+  margin-right: 20px;
 }
 
 nav a {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    color: rgb(0, 136, 255);
-    font-size: 20px;
-    padding: 0 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(0, 136, 255);
+  font-size: 20px;
+  padding: 0 15px;
 }
 
 #nav-buttons {
-    margin: auto 40px auto auto;
+  margin: auto 40px auto auto;
 }
 
-#login-btn, #register-btn {
-    padding: 7px 35px;
-    border-radius: 8px;
-    margin: 0 5px;
+#login-btn,
+#register-btn {
+  padding: 7px 35px;
+  border-radius: 8px;
+  margin: 0 5px;
 }
 
 #login-btn {
-    border: solid 2px rgb(0, 136, 255);
-    color: rgb(0, 136, 255);
-    background-color: white;
-    font-size: 17px;
+  border: solid 2px rgb(0, 136, 255);
+  color: rgb(0, 136, 255);
+  background-color: white;
+  font-size: 17px;
 }
 
 #register-btn {
-    border: solid 2px rgb(0, 136, 255);
-    background-color: rgb(0, 136, 255);
-    color: white;
-    font-size: 17px;
+  border: solid 2px rgb(0, 136, 255);
+  background-color: rgb(0, 136, 255);
+  color: white;
+  font-size: 17px;
 }
 
 nav a:hover {
-    color: rgb(0, 96, 180);
+  color: rgb(0, 96, 180);
 }
 
-#logo:hover, #login-btn:hover, #register-btn:hover {
-    cursor: pointer;
+#logo:hover,
+#login-btn:hover,
+#register-btn:hover {
+  cursor: pointer;
 }
 
 #login-btn:hover {
-    background-color: rgb(226, 226, 226);
+  background-color: rgb(226, 226, 226);
 }
 
 #register-btn:hover {
-    background-color: rgb(79, 173, 255);
-    border: 2px solid rgb(79, 173, 255);
+  background-color: rgb(79, 173, 255);
+  border: 2px solid rgb(79, 173, 255);
 }
 
 /* header */
 
 header {
-    background-color: black;
+  background-color: black;
 }
 
 header img {
-    width: 100%;
-    opacity: 0.5;
-    animation: 1s fade-in;
+  width: 100%;
+  opacity: 0.5;
+  animation: 1s fade-in;
 }
 
 #header-txt {
-    position: absolute;
-    top: 52%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    z-index: 1;
-    color: white;
-    animation: 0.7s slide-in;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  color: white;
+  animation: 0.7s slide-in;
 }
 
 #header-txt h1 {
-    font-size: 70px;
-    font-weight: 600;
+  font-size: 70px;
+  font-weight: 600;
 }
 
 #header-txt p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 21px;
-    line-height: 27px;
-    padding-top: 20px;
-    width: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  line-height: 27px;
+  padding-top: 20px;
+  width: 900px;
 }
 #header-txt button {
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 20px 2px;
-    border-radius: 10px;
-    font-size: 23px;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 20px 2px;
+  border-radius: 10px;
+  font-size: 23px;
 }
 #assortiment-btn {
-    background-color: rgba(255, 255, 255, 0);
-    border: 2px solid rgb(79, 173, 255);
-    color: rgb(79, 173, 255);
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid rgb(79, 173, 255);
+  color: rgb(79, 173, 255);
 }
 
 #assortiment-btn:hover {
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.199);
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.199);
 }
 #contact-btn {
-    border: 2px solid rgb(79, 173, 255);
-    color: white;
-    background-color: rgb(79, 173, 255);
+  border: 2px solid rgb(79, 173, 255);
+  color: white;
+  background-color: rgb(79, 173, 255);
 }
 #contact-btn:hover {
-    background-color: rgb(66, 120, 167);
-    border: 2px solid rgb(76, 142, 200);
+  background-color: rgb(66, 120, 167);
+  border: 2px solid rgb(76, 142, 200);
 }
 
+/* main */
 
-/* main */  
-
-main h3 {
-    text-align: center;
-    margin: 50px 0 20px 0;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-#villa {
+#carouselDiv {
+    height: 600px;
+    margin: 0;
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 500px 100px;
+    grid-template-columns: 1fr 30px 30px 30px 30px 30px 30px 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+
+  main#carousel {
+    grid-row: 1 / 2;
+    grid-column: 1 / 9;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-}
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    --items: 6;
+    --middle: 3;
+    --position: 1;
+  }
 
-main img {
-    width: 300px;
-    margin: 10px;
-}
+  #carouselDiv a:hover {
+    cursor: pointer;
+  }
+  
+  a.item {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    /* background-color: coral; */
+    --r: calc(var(--position) - var(--offset));
+    --abs: max(calc(var(--r) * -1), var(--r));
+    transition: all 0.25s linear;
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-300px * var(--r)));
+    z-index: calc((var(--position) - var(--abs)));
+  }
 
+  a.item:nth-of-type(1) {
+    --offset: 1;
+  }
+  a.item:nth-of-type(2) {
+    --offset: 2;
+    background-color: #ff70a6;
+  }
+  a.item:nth-of-type(3) {
+    --offset: 3;
+    background-color: #ff9770;
+  }
+  a.item:nth-of-type(4) {
+    --offset: 4;
+    background-color: #ffd670;
+  }
+  a.item:nth-of-type(5) {
+    --offset: 5;
+    background-color: #e9ff70;
+  }
+  a.item:nth-of-type(6) {
+    --offset: 6;
+    background-color: aquamarine;
+  }
+  
+  input:nth-of-type(1) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+  }
+  input:nth-of-type(1):checked ~ main#carousel {
+    --position: 1;
+  }
+  
+  input:nth-of-type(2) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+  }
+  input:nth-of-type(2):checked ~ main#carousel {
+    --position: 2;
+  }
+  
+  input:nth-of-type(3) {
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+  }
+  input:nth-of-type(3):checked ~ main#carousel {
+    --position: 3;
+  }
+  
+  input:nth-of-type(4) {
+    grid-column: 5 / 6;
+    grid-row: 2 / 4;
+  }
+  input:nth-of-type(4):checked ~ main#carousel {
+    --position: 4;
+  }
+  input:nth-of-type(5) {
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(5):checked ~ main#carousel {
+    --position: 5;
+  }
+  input:nth-of-type(6) {
+    grid-column: 7 / 8;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(6):checked ~ main#carousel {
+    --position: 6;
+  }
 /* footer */
 
 footer {
-    width: 100%;
-    display: grid;
-    justify-content: center;
-    margin-top: 90px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  margin-top: 90px;
 }
 
 #footer-nav {
-    border-bottom: 1px solid black;
-    padding-bottom: 30px;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
 }
 
 #footer-nav img {
-    width: 40px;
-    margin: 0 50px;
-    margin-bottom: -10px;
+  width: 40px;
+  margin: 0 50px;
+  margin-bottom: -10px;
 }
 
 #footer-nav a {
-    text-decoration: none;
-    margin: 0 60px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 18px;
+  text-decoration: none;
+  margin: 0 60px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 /* contact page */
 form {
-    animation: 1s slide-in, 0.3s fade-in;
+  animation: 1s slide-in, 0.3s fade-in;
 }
 
-form input, form textarea{
-    display: flex;
-    padding: 5px 10px;
-    background-color: rgb(198, 198, 198);
-    border: none;
-    margin: 4px;
-    border-radius: 5px;
-    margin-left: 37%;
+form input,
+form textarea {
+  display: flex;
+  padding: 5px 10px;
+  background-color: rgb(198, 198, 198);
+  border: none;
+  margin: 4px;
+  border-radius: 5px;
+  margin-left: 37%;
 }
 
 form h1 {
-    font-weight: 500;
-    margin-top: 50px;
+  font-weight: 500;
+  margin-top: 50px;
 }
 
-form h1, form p {
-    text-align: center;
+form h1,
+form p {
+  text-align: center;
 }
 
 form p {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
 }
 
-form input::placeholder, form textarea::placeholder {
-    color: rgb(47, 47, 47);
-    font-family: "prompt";
+form input::placeholder,
+form textarea::placeholder {
+  color: rgb(47, 47, 47);
+  font-family: "prompt";
 }
 
 form #submit-button {
-    margin-left: 61.25%;
-    border: 2px solid rgb(0, 136, 255);
-    background-color: white;
-    color: rgb(0, 136, 255);
-    padding: 10px 20px;
+  margin-left: 61.25%;
+  border: 2px solid rgb(0, 136, 255);
+  background-color: white;
+  color: rgb(0, 136, 255);
+  padding: 10px 20px;
 }
 
 form #submit-button:hover {
-    background-color: rgb(227, 227, 227);
-    cursor: pointer;
+  background-color: rgb(227, 227, 227);
+  cursor: pointer;
 }
 
 /* keyframes */
 
 @keyframes slide-in {
-    from {
-        margin-top: 25%;
-        top: 70%;
-        opacity: 20%;
-    } to {
-        margin-top: 0;
-        top: 52%;
-        opacity: 100%;
-    }
+  from {
+    margin-top: 25%;
+    top: 70%;
+    opacity: 20%;
+  }
+  to {
+    margin-top: 0;
+    top: 52%;
+    opacity: 100%;
+  }
 }
 @keyframes fade-in {
-    from {
-        opacity: 0.05;
-    }
-    to {
-        opacity: 0.5;
-    }
+  from {
+    opacity: 0.05;
+  }
+  to {
+    opacity: 0.5;
+  }
 }
