@@ -316,12 +316,12 @@ footer {
 }
 
 /* contact page */
-form {
+#contact-form {
   animation: 1s slide-in, 0.3s fade-in;
 }
 
-form input,
-form textarea {
+#contact-form input,
+#contact-form textarea {
   display: flex;
   padding: 5px 10px;
   background-color: rgb(198, 198, 198);
@@ -331,28 +331,28 @@ form textarea {
   margin-left: 37%;
 }
 
-form h1 {
+#contact-form h1 {
   font-weight: 500;
   margin-top: 50px;
 }
 
-form h1,
-form p {
+#contact-form h1,
+#contact-form p {
   text-align: center;
 }
 
-form p {
+#contact-form p {
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 50px;
 }
 
-form input::placeholder,
-form textarea::placeholder {
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
   color: rgb(47, 47, 47);
   font-family: "prompt";
 }
 
-form #submit-button {
+#contact-form #submit-button {
   margin-left: 61.25%;
   border: 2px solid rgb(0, 136, 255);
   background-color: white;
@@ -360,7 +360,7 @@ form #submit-button {
   padding: 10px 20px;
 }
 
-form #submit-button:hover {
+#contact-form #submit-button:hover {
   background-color: rgb(227, 227, 227);
   cursor: pointer;
 }
@@ -382,7 +382,7 @@ form #submit-button:hover {
 
 /* villa page */
 .slider-wrapper {
-  margin: 1rem;
+  margin: 0 1rem;
   position: relative;
   overflow: hidden;
 }
@@ -438,21 +438,56 @@ form #submit-button:hover {
   flex: 1 0 100%;
 }
 
-.slide:nth-child(1) {
-  background-color: #49b293;
-}
-
-.slide:nth-child(2) {
-  background-color: #b03532;
-}
-
 .slide:nth-child(3) {
-  background-color: #6a478f;
   margin: 0;
 }
+#villa-info {
+  margin: 70px;
+  width: 759px;
+  overflow: hidden;
+  float: left;
+}
 
-.slide:nth-child(4) {
-  background-color: #da6f2b;
+#villa-beschrijving h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+section h3, form h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#villa-beschrijving p {
+  font-size: 20px;
+  width: 700px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+section img {
+  width: 750px;
+  display: flex;
+}
+
+#veiling {
+  width: 350px;
+  float: left;
+  margin-top: 10.5%;
+  margin-left: 20px;
+}
+
+#veiling p {
+  font-weight: 200;
+  font-size: 20px;
+}
+#veiling form input {
+  float: right;
+  width: 150px;
+}
+#veiling form #bod {
+  width: 200px;
 }
 /* keyframes */
 
