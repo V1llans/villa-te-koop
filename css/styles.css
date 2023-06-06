@@ -161,6 +161,14 @@ header img {
 
 /* main */
 
+#asosrtiment-header{
+  font-family: "prompt";
+  text-align: center;
+  font-weight: 500;
+  font-size: 37px;
+  margin-top: 40px;
+}
+
 #carouselDiv {
     height: 600px;
     margin: 0;
@@ -189,6 +197,11 @@ header img {
 
   #carouselDiv a:hover {
     cursor: pointer;
+  }
+
+  #carouselDiv a img {
+    width: 600px;
+    height: 400px;
   }
   
   a.item {
@@ -350,6 +363,11 @@ form #submit-button {
 form #submit-button:hover {
   background-color: rgb(227, 227, 227);
   cursor: pointer;
+}
+
+#github {
+  width: 35px;
+  display: flex;
 }
 
 /* keyframes */
