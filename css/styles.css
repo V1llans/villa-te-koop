@@ -161,7 +161,7 @@ header img {
 
 /* main */
 
-#asosrtiment-header{
+#asosrtiment-header {
   font-family: "prompt";
   text-align: center;
   font-weight: 500;
@@ -170,122 +170,122 @@ header img {
 }
 
 #carouselDiv {
-    height: 600px;
-    margin: 0;
-    display: grid;
-    grid-template-rows: 500px 100px;
-    grid-template-columns: 1fr 30px 30px 30px 30px 30px 30px 1fr;
-    align-items: center;
-    justify-items: center;
-  }
+  height: 600px;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 500px 100px;
+  grid-template-columns: 1fr 30px 30px 30px 30px 30px 30px 1fr;
+  align-items: center;
+  justify-items: center;
+}
 
-  main#carousel {
-    grid-row: 1 / 2;
-    grid-column: 1 / 9;
-    width: 100vw;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transform-style: preserve-3d;
-    perspective: 600px;
-    --items: 6;
-    --middle: 3;
-    --position: 1;
-  }
+main#carousel {
+  grid-row: 1 / 2;
+  grid-column: 1 / 9;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  --items: 6;
+  --middle: 3;
+  --position: 1;
+}
 
-  #carouselDiv a:hover {
-    cursor: pointer;
-  }
+#carouselDiv a:hover {
+  cursor: pointer;
+}
 
-  #carouselDiv a img {
-    width: 600px;
-    height: 400px;
-  }
-  
-  a.item {
-    position: absolute;
-    width: 600px;
-    height: 400px;
-    /* background-color: coral; */
-    --r: calc(var(--position) - var(--offset));
-    --abs: max(calc(var(--r) * -1), var(--r));
-    transition: all 0.25s linear;
-    transform: rotateY(calc(-10deg * var(--r)))
-      translateX(calc(-300px * var(--r)));
-    z-index: calc((var(--position) - var(--abs)));
-  }
+#carouselDiv a img {
+  width: 600px;
+  height: 400px;
+}
 
-  a.item:nth-of-type(1) {
-    --offset: 1;
-  }
-  a.item:nth-of-type(2) {
-    --offset: 2;
-    background-color: #ff70a6;
-  }
-  a.item:nth-of-type(3) {
-    --offset: 3;
-    background-color: #ff9770;
-  }
-  a.item:nth-of-type(4) {
-    --offset: 4;
-    background-color: #ffd670;
-  }
-  a.item:nth-of-type(5) {
-    --offset: 5;
-    background-color: #e9ff70;
-  }
-  a.item:nth-of-type(6) {
-    --offset: 6;
-    background-color: aquamarine;
-  }
-  
-  input:nth-of-type(1) {
-    grid-column: 2 / 3;
-    grid-row: 2 / 4;
-  }
-  input:nth-of-type(1):checked ~ main#carousel {
-    --position: 1;
-  }
-  
-  input:nth-of-type(2) {
-    grid-column: 3 / 4;
-    grid-row: 2 / 4;
-  }
-  input:nth-of-type(2):checked ~ main#carousel {
-    --position: 2;
-  }
-  
-  input:nth-of-type(3) {
-    grid-column: 4 / 5;
-    grid-row: 2 / 4;
-  }
-  input:nth-of-type(3):checked ~ main#carousel {
-    --position: 3;
-  }
-  
-  input:nth-of-type(4) {
-    grid-column: 5 / 6;
-    grid-row: 2 / 4;
-  }
-  input:nth-of-type(4):checked ~ main#carousel {
-    --position: 4;
-  }
-  input:nth-of-type(5) {
-    grid-column: 6 / 7;
-    grid-row: 2 / 3;
-  }
-  input:nth-of-type(5):checked ~ main#carousel {
-    --position: 5;
-  }
-  input:nth-of-type(6) {
-    grid-column: 7 / 8;
-    grid-row: 2 / 3;
-  }
-  input:nth-of-type(6):checked ~ main#carousel {
-    --position: 6;
-  }
+a.item {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  /* background-color: coral; */
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 0.25s linear;
+  transform: rotateY(calc(-10deg * var(--r)))
+    translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
+}
+
+a.item:nth-of-type(1) {
+  --offset: 1;
+}
+a.item:nth-of-type(2) {
+  --offset: 2;
+  background-color: #ff70a6;
+}
+a.item:nth-of-type(3) {
+  --offset: 3;
+  background-color: #ff9770;
+}
+a.item:nth-of-type(4) {
+  --offset: 4;
+  background-color: #ffd670;
+}
+a.item:nth-of-type(5) {
+  --offset: 5;
+  background-color: #e9ff70;
+}
+a.item:nth-of-type(6) {
+  --offset: 6;
+  background-color: aquamarine;
+}
+
+input:nth-of-type(1) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+}
+input:nth-of-type(1):checked ~ main#carousel {
+  --position: 1;
+}
+
+input:nth-of-type(2) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
+}
+input:nth-of-type(2):checked ~ main#carousel {
+  --position: 2;
+}
+
+input:nth-of-type(3) {
+  grid-column: 4 / 5;
+  grid-row: 2 / 4;
+}
+input:nth-of-type(3):checked ~ main#carousel {
+  --position: 3;
+}
+
+input:nth-of-type(4) {
+  grid-column: 5 / 6;
+  grid-row: 2 / 4;
+}
+input:nth-of-type(4):checked ~ main#carousel {
+  --position: 4;
+}
+input:nth-of-type(5) {
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(5):checked ~ main#carousel {
+  --position: 5;
+}
+input:nth-of-type(6) {
+  grid-column: 7 / 8;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(6):checked ~ main#carousel {
+  --position: 6;
+}
 /* footer */
 
 footer {
@@ -354,7 +354,7 @@ form textarea::placeholder {
 
 form .submit-button {
   margin-left: 61.25%;
-    border: 2px solid rgb(0, 136, 255);
+  border: 2px solid rgb(0, 136, 255);
   background-color: white;
   color: rgb(0, 136, 255);
   padding: 10px 20px;
@@ -370,6 +370,7 @@ form #submit-button:hover {
   margin-left: 48.5%;
   margin-top: 30px;
 }
+
 
 #footer-text {
   font-size: 15px;
@@ -442,7 +443,7 @@ form #submit-button:hover {
   margin: 0;
 }
 #villa-info {
-  margin: 70px;
+  margin: 70px 6vw;
   width: 759px;
   overflow: hidden;
   float: left;
@@ -454,7 +455,8 @@ form #submit-button:hover {
   margin-bottom: 20px;
 }
 
-section h3, form h3 {
+section h3,
+form h3 {
   font-size: 25px;
   font-weight: 400;
 }
@@ -495,7 +497,7 @@ section img {
   background-color: rgb(202, 199, 199);
   border: none;
   border-radius: 5px;
-} 
+}
 
 #veiling form input::placeholder {
   text-align: center;
@@ -535,5 +537,77 @@ section img {
   }
   to {
     opacity: 0.5;
+  }
+}
+
+/* responsive */
+
+@media screen and (min-width: 1920px) {
+  #villa-info {
+    margin-left: 16vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header img {
+    width: 2000px;
+  }
+
+  #header-txt {
+    top: 37%;
+  }
+
+  #header-txt p {
+    width: 100%;
+  }
+
+  #contact-form {
+    animation: none;
+    padding-top: 20%;
+    margin-bottom: 60%;
+  }
+
+  #contact-form input, #contact-form textarea {
+    margin-left: 10%;
+    font-size: 25px;
+  }
+
+  #contact-form .submit-button {
+    font-size: 30px;
+    border: 2px solid rgb(0, 136, 255);
+    background-color: #ff70a700;
+  }
+
+  #contact-form p {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  #form {
+    margin-top: 10%;
+  }
+
+  footer {
+    display: block;
+    text-align: center;
+  }
+
+  #github {
+    margin-left: 0%;
+  }
+
+  @keyframes slide-in {
+    from {
+      margin-top: 25%;
+      top: 70%;
+      opacity: 20%;
+    }
+    to {
+      margin-top: 0;
+      top: 37%;
+      opacity: 100%;
+    }
   }
 }
