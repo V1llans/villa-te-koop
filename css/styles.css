@@ -346,21 +346,21 @@ footer {
   margin-bottom: 50px;
 }
 
-#contact-form input::placeholder,
-#contact-form textarea::placeholder {
+form input::placeholder,
+form textarea::placeholder {
   color: rgb(47, 47, 47);
   font-family: "prompt";
 }
 
-#contact-form #submit-button {
+form .submit-button {
   margin-left: 61.25%;
-  border: 2px solid rgb(0, 136, 255);
+    border: 2px solid rgb(0, 136, 255);
   background-color: white;
   color: rgb(0, 136, 255);
   padding: 10px 20px;
 }
 
-#contact-form #submit-button:hover {
+form #submit-button:hover {
   background-color: rgb(227, 227, 227);
   cursor: pointer;
 }
@@ -485,10 +485,33 @@ section img {
 #veiling form {
   margin-top: 70px;
 }
+#veiling form label {
+  font-weight: 200;
+}
 #veiling form input {
   float: right;
   width: 150px;
+  padding: 4px 8px;
+  background-color: rgb(202, 199, 199);
+  border: none;
+  border-radius: 5px;
+} 
+
+#veiling form input::placeholder {
+  text-align: center;
+  color: gray;
 }
+
+#veiling .submit-button {
+  background-color: #eaff7000;
+  border: 2px solid rgb(0, 136, 255);
+  margin-top: 10px;
+}
+
+#veiling .submit-button:hover {
+  background-color: rgba(128, 128, 128, 0.272);
+}
+
 #veiling form #bod {
   width: 200px;
 }
