@@ -367,7 +367,17 @@ form #submit-button:hover {
 
 #github {
   width: 35px;
-  display: flex;
+  margin-left: 48.5%;
+  margin-top: 30px;
+}
+
+#footer-text {
+  font-size: 15px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(125, 125, 125);
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 /* keyframes */
