@@ -1,5 +1,5 @@
 <?php
-$databaseFile = "biedingen.db";
+$databaseFile = "biedingen2.db";
 
 // Verbinding maken met de database
 try {
