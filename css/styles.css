@@ -487,9 +487,7 @@ section img {
 #veiling form {
   margin-top: 70px;
 }
-#veiling form label {
-  font-weight: 200;
-}
+
 #veiling form input {
   float: right;
   width: 150px;
