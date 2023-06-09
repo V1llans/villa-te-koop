@@ -49,9 +49,9 @@ try {
         &#8250;
       </button>
       <ul class="slides-container" id="slides-container">
-        <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
-        <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
-        <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
+        <img src="../img/villa 1 foto 1.webp" width="100%" class="slide"></img>
+        <img src="../img/villa 1 foto 1.webp" width="100%" class="slide"></img>
+        <img src="../img/villa 1 foto 1.webp" width="100%" class="slide"></img>
         <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
         <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
         <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
@@ -68,9 +68,9 @@ try {
     </section>
     <main id="villa-info">
       <section id="villa-beschrijving">
-        <h1>header placeholder</h1>
-        <h3>Indeling placeholder</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ut delectus quam culpa minima cumque assumenda soluta eveniet praesentium quisquam, temporibus dicta consectetur labore tempore quos tempora aspernatur sint vero?</p>
+        <h1>Villa Los Angeles</h1>
+        <h3>Beschrijving</h3>
+        <p>Geniet van het ultieme luxeleven in een prachtige villa. Deze ruime woningen bieden royale kamers, van comfortabele slaapkamers tot stijlvolle woonkamers, ideaal voor ontspanning en entertainment. Met een privézwembad, ruime terrassen en weelderige tuinen kunt u volop genieten van een exclusieve levensstijl en adembenemende uitzichten. Laat u betoveren door de mooie architectuur en verfijnde details van deze droomvilla's.</p>
       </section>
       <section>
         <h3>Locatie</h3>

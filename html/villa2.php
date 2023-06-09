@@ -49,9 +49,9 @@ try {
         &#8250;
       </button>
       <ul class="slides-container" id="slides-container">
-        <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
-        <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
-        <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
+        <img src="../img/villa 2 foto 1.png" width="100%" class="slide"></img>
+        <img src="../img/villa 2 foto 1.png" width="100%" class="slide"></img>
+        <img src="../img/villa 2 foto 1.png" width="100%" class="slide"></img>
         <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
         <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
         <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
@@ -68,10 +68,9 @@ try {
     </section>
     <main id="villa-info">
       <section id="villa-beschrijving">
-        <h1>header placeholder</h1>
-        <h3>Indeling placeholder</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ut delectus quam culpa minima cumque assumenda soluta eveniet praesentium quisquam, temporibus dicta consectetur labore tempore quos tempora aspernatur sint vero?</p>
-      </section>
+        <h1>Villa Sydney</h1>
+        <h3>Beschrijving</h3>
+          <p>Betreed een wereld van elegantie en grandeur in een betoverende villa. Met ruime kamers, hoogwaardige afwerking en prachtige architectuur, biedt deze exclusieve woning een ongeëvenaarde levensstijl. Geniet van luxe voorzieningen zoals een privébioscoop, een professionele keuken en een prachtig aangelegde tuin. In deze villa komen dromen tot leven en ervaart u het toppunt van luxe wonen.</p>      </section>
       <section>
         <h3>Locatie</h3>
         <img src="../img/maps-placeholder.jpeg" alt="maps placeholder">

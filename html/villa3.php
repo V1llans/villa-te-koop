@@ -49,9 +49,9 @@ try {
         &#8250;
       </button>
       <ul class="slides-container" id="slides-container">
-        <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
-        <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
-        <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
+        <img src="../img/villa 3 foto 1.png" width="100%" class="slide"></img>
+        <img src="../img/villa 3 foto 1.png" width="100%" class="slide"></img>
+        <img src="../img/villa 3 foto 1.png" width="100%" class="slide"></img>
         <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
         <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
         <img src="../img/img-placeholder.png" width="100%" class="slide"></img>
@@ -68,10 +68,9 @@ try {
     </section>
     <main id="villa-info">
       <section id="villa-beschrijving">
-        <h1>header placeholder</h1>
-        <h3>Indeling placeholder</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ut delectus quam culpa minima cumque assumenda soluta eveniet praesentium quisquam, temporibus dicta consectetur labore tempore quos tempora aspernatur sint vero?</p>
-      </section>
+        <h1>Villa Rio</h1>
+        <h3>Beschrijving</h3>
+          <p> Verwen uzelf met de rust en sereniteit van een luxe villa. Omgeven door prachtige landschappen en voorzien van uitgebreide faciliteiten, bieden deze exclusieve woningen een toevluchtsoord van luxe en comfort. Van ontspannen in uw eigen privéspa tot genieten van het buitenleven in weelderige tuinen, elke dag is een ontsnapping naar pure verfijning en welzijn. </p></section>
       <section>
         <h3>Locatie</h3>
         <img src="../img/maps-placeholder.jpeg" alt="maps placeholder">

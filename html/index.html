@@ -12,6 +12,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        function scrollToSection() {
+  var doelSectie = document.getElementById("doelsectie");
+  var positie = doelSectie.offsetTop;
+
+  window.scrollTo({
+    top: positie,
+    behavior: "smooth" // Dit zorgt voor een vloeiende scroll-animatie
+  });
+}
+    </script>
 </head>
 <body>
     <nav>
@@ -31,12 +42,13 @@
         <div id="header-txt">
             <h1>VILLA TE KOOP</h1>
             <p>Bij villa te koop willen we u de mogelijkheid bieden om uw droomvilla te kopen. Ons doel is om u te helpen bij het vinden van uw perfecte thuis weg van huis, met een selectie van luxueuze villa's hebben we voor ieder iets. Of u nu op zoek bent naar een villa aan de kust, in de bergen of op het platteland, Onze missie is om u een onvergetelijke ervaring te bieden bij het kopen van uw eigen stukje paradijs. Verken ons aanbod en laat u begeleiden op uw reis naar het vinden van de perfecte villa.</p>
-            <a href="#villa"><button id="assortiment-btn">Ons assoriment</button></a>
+            <button onclick="scrollToSection()" id="assortiment-btn">Ons assoriment</button>
             <a href="contact.html"><button id="contact-btn">Contact</button></a>
-        </div>
+            
+        </div><section id="doelsectie">
     </header>
     <div id="assortiment">
-        <h3 id="asosrtiment-header">Ons assortiment:</h3>
+        <h3 id="asosrtiment-header"></h3>
         <div id="carouselDiv">
             <input type="radio" name="position" checked />
             <input type="radio" name="position" />
@@ -45,7 +57,6 @@
             <input type="radio" name="position" />
             <input type="radio" name="position" />
             <main id="carousel">
-
                 <a class="item" href="../html/villa.php"><img src="../img/villa 1 foto 1.webp" alt="villa 1"></a>
                 <a class="item" href="../html/villa2.php"><img src="../img/villa 2 foto 1.png" alt="villa 2"></a>
                 <a class="item" href="../html/villa3.php"><img src="../img/villa 3 foto 1.png" alt="villa 3"></a>
@@ -54,6 +65,7 @@
                 <a class="item"><img src="../img/villa 6.png" alt="villa 6"></a>
             <main>
         </div>
+    </section>
     </div>
     <footer>
         <div id="footer-nav">
